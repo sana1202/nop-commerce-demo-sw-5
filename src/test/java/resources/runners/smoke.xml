@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="grouptestsuite" verbose="1" >
+    <groups>
+        <run>
+            <include name="smoke"></include>
+        </run>
+    </groups>
+    <test name="Grouping Test"   >
+        <classes>
+            <class name="com.nopcommerce.demo.testsuite.LoginTest"></class>
+
+        </classes>
+    </test>
+</suite>
